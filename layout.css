@@ -36,6 +36,7 @@
    }
 @media screen and (max-width:600px){
     #container{
+        grid-template-columns: 1fr;
         grid-template-areas: 
         "header"
         "main"
