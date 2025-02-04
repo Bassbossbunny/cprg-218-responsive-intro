@@ -6,12 +6,14 @@
 body {
     background-color: rgb(129, 133, 250);
     color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*Any screen resolution from 0-500 px wide*/
 @media screen and (max-width:500px){
 body{
     background-color: rgb(61, 98, 71);
+    font-size: 130%;
 }
 }
 @media screen and (max-width:400px){
