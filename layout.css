@@ -24,6 +24,11 @@
         background-color: #E9F2F1;
    
     }
+    #desktop{
+        background-color: black;
+        color: azure;
+        padding:1.4rem
+    }
 
     nav{
         grid-area:nav;
@@ -44,4 +49,7 @@
         "footer";
     }
     /*could also have put display block to revert site to basic viewing*/
+    #desktop{
+        display: none;
+    }
 }
